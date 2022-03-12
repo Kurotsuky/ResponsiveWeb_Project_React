@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import Navigator from '../components/Navigator';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -6,6 +7,10 @@ import Contacto from '../components/Contacto';
 function Contactar() {
     return (
         <>
+            <Helmet>
+                <title>Contactar - Ejercítate</title>
+            </Helmet>
+
             <Navigator />
 
             <header className='contactar-header'>

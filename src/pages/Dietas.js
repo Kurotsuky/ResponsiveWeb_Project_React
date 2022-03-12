@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import Navigator from '../components/Navigator';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -7,6 +8,10 @@ function Dietas() {
 
     return (
         <>
+            <Helmet>
+                <title>Dietas - Ejercítate</title>
+            </Helmet>
+
             <Navigator />
 
             <header className='dietas-header'>
