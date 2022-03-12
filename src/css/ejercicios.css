@@ -1,0 +1,13 @@
+/* --- HEADER --- */
+.ejercicios-header .header-title {
+  background-color: #343b50;
+}
+
+.ejercicios-header .header-categories {
+  background-color: #293658;
+}
+
+.ejercicios-header .header-categories > li > a:hover {
+  color: #bda900;
+  background-color: rgb(0, 38, 88, 0.15);
+}

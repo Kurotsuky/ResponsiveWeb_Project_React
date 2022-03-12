@@ -1,0 +1,13 @@
+/* --- HEADER --- */
+.dietas-header .header-title {
+  background-color: #344c50;
+}
+
+.dietas-header .header-categories {
+  background-color: #295158;
+}
+
+.dietas-header .header-categories > li > a:hover {
+  color: #bd8f00;
+  background-color: rgb(0, 79, 88, 0.45);
+}

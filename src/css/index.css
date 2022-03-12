@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* --- HEADER --- */
+.home-header {
+  height: 45.27vw;
+  background-color: #3b3b49;
+  background-image: linear-gradient(
+    325deg,
+    #3b3b49 0%,
+    #353542 20%,
+    #2a2c3f 80%,
+    #1a1b27 100%
+  );
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* --- SLIDER --- */
+.slider-container {
+  margin: auto;
+  width: 75%;
+  height: 80%;
+  transform: translate(0, 12%);
+  overflow: hidden;
+}
+
+.slider,
+.slider > li,
+.slider > li > a,
+.slider > li img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  display: flex;
+  width: 500%;
+  animation: slide 25s steps(5) infinite;
+}
+
+.slider > li {
+  position: relative;
+}
+
+.slider > li > a {
+  display: block;
+}
+
+.slider > li img {
+  filter: opacity(60%);
+  border-radius: 1.75rem;
+}
+
+.slider-description {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(27, 27, 27, 0.5);
+  border-radius: 0 0 1.75rem 1.75rem;
+}
+
+.slider-description-text {
+  font-size: 3rem;
+  color: rgb(231, 231, 231);
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  transition: 0.5s;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider > li > a:hover .slider-description-text {
+  color: #3bcbca;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -500%;
+  }
 }

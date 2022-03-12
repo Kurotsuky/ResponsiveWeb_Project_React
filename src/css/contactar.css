@@ -1,0 +1,66 @@
+/* --- HEADER --- */
+.contactar-header .header-title {
+  background-color: #203a50;
+}
+
+/* --- MAIN --- */
+.contactar-main {
+  padding-bottom: 10%;
+}
+/* --- FORMULARIO --- */
+.form-container {
+  width: 30%;
+  margin: auto;
+}
+
+.form-container > form {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.form-field,
+.form-areafield {
+  display: grid;
+  row-gap: 0.2rem;
+}
+
+.form-field > input,
+.form-areafield > textarea {
+  background-color: inherit;
+  border: 0.065rem solid #7983a5;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  color: inherit;
+}
+
+.form-field > input:focus,
+.form-areafield > textarea:focus {
+  border-color: #405fa5;
+  outline: 0.065rem solid #405fa5;
+}
+
+.form-areafield {
+  margin-top: 1rem;
+}
+
+input:-webkit-autofill {
+  background-clip: text;
+  -webkit-text-fill-color: white;
+}
+
+.form-container .form-submit {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.form-container .form-submit button {
+  background-color: #429fc7;
+  border: none;
+  padding: 0.7rem 2.1rem;
+  border-radius: 1rem;
+}
+
+.form-container .form-submit button:hover {
+  filter: contrast(200%);
+  outline: 0.06rem solid #5c88ec;
+}
