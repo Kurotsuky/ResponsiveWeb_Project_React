@@ -4,7 +4,7 @@ export default function Slider() {
             <ul class="slider">
                 <li>
                     <a href="#">
-                        <img src={require('../images/pressbanca.jpeg')} alt="Ejercicios de pectoral" />
+                        <img src={require('../images/pectoral.jpg')} alt="Ejercicios de pectoral" />
                         <div class="slider-description">
                             <h2 class="slider-description-text">Pectoral</h2>
                         </div>
@@ -12,7 +12,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src={require('../images/dominadas.jpg')} alt="Ejercicios de espalda" />
+                        <img src={require('../images/espalda.jpg')} alt="Ejercicios de espalda" />
                         <div class="slider-description">
                             <h2 class="slider-description-text">Espalda</h2>
                         </div>
@@ -20,7 +20,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src={require('../images/pressmilitar.jpg')} alt="Ejercicios de hombros" />
+                        <img src={require('../images/hombros.jpg')} alt="Ejercicios de hombros" />
                         <div class="slider-description">
                             <h2 class="slider-description-text">Hombros</h2>
                         </div>
@@ -28,7 +28,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src={require('../images/abdominales.jpg')} alt="Ejercicios de abdominal" />
+                        <img src={require('../images/abdominal.jpg')} alt="Ejercicios de abdominal" />
                         <div class="slider-description">
                             <h2 class="slider-description-text">Abdominales</h2>
                         </div>
@@ -36,7 +36,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src={require('../images/sentadillas.jpg')} alt="Ejercicios de pierna" />
+                        <img src={require('../images/piernas.jpg')} alt="Ejercicios de pierna" />
                         <div class="slider-description">
                             <h2 class="slider-description-text">Piernas</h2>
                         </div>

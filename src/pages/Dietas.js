@@ -4,7 +4,6 @@ import Header from '../components/Header';
 import ArticlesList from '../components/ArticlesList';
 
 function Dietas() {
-    let categories = ["Volumen", "Definicion", "Carnivoro", "Hervívoro", "Omnívoro"];
 
     return (
         <>
@@ -14,7 +13,6 @@ function Dietas() {
                 <Header
                     title={"Dietas"}
                     description={"Dietas para cuidar tu salud y cumplir tus objetivos."}
-                    categories={categories}
                 />
             </header>
 

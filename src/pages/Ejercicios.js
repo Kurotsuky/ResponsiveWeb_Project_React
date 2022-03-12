@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import ArticlesList from '../components/ArticlesList';
 
 function Ejercicios() {
-    let categories = ["Pecho", "Espalda", "Hombros", "Tríceps", "Bíceps", "Cuádriceps", "Glúteos", "Isquiotibiales", "Gemelos"];
+    let categories = ["Pecho", "Espalda", "Hombros", "Tríceps", "Bíceps", "Abdominal", "Cuádriceps", "Glúteos", "Isquiotibiales", "Gemelos"];
 
     return (
         <>
