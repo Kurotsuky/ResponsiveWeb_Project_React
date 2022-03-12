@@ -1,9 +1,26 @@
-export default function Pagination() {
+export default function Pagination(props) {
+    const getPages = () => {
+        const result = [];
+        for (let i = 0; i < props.total; i++) {
+            let page = i + 1;
+            result.push(
+                <a
+                    href="#articles-list"
+                    onClick={() => props.onChange(page)}
+                    className={props.page === page ? 'active' : ''}
+                >
+                    {page}
+                </a>
+            );
+        }
+        return result;
+    }
+
     return (
         <section className="pagination-container">
             <div className="pagination">
-                <span>Página 1 de 2:</span>
-                <span><a href="#">1</a> <a href="#">2</a></span>
+                <span>Página {props.page} de {props.total}:</span>
+                <span>{getPages()}</span>
             </div>
         </section>
     );

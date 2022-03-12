@@ -13,7 +13,10 @@ function Home() {
             </header>
 
             <main className='home-main'>
-                <ArticlesList title={"Últimos artículos"} />
+                <ArticlesList
+                    title={"Últimos artículos"}
+                    type={"all"}
+                />
             </main>
 
             <footer className='home-footer'>

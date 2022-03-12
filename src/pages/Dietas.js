@@ -17,7 +17,10 @@ function Dietas() {
             </header>
 
             <main className='dietas-main'>
-                <ArticlesList title={"Últimas dietas"} />
+                <ArticlesList
+                    title={"Últimas dietas"}
+                    type={'dieta'}
+                />
             </main>
 
             <footer className='dietas-footer'>

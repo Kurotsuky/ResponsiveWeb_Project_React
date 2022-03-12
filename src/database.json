@@ -6,7 +6,7 @@
         "valoration": "9.5",
         "date": "17/03/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/ejercicios/press_banca.jpg"
+        "img": "images/ejercicios/press_banca.jpg"
     },
     {
         "name": "Sentadillas",
@@ -15,7 +15,7 @@
         "valoration": "9.6",
         "date": "21/05/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/ejercicios/sentadillas.jpg"
+        "img": "images/ejercicios/sentadillas.jpg"
     },
     {
         "name": "Peso Muerto",
@@ -24,7 +24,7 @@
         "valoration": "9.8",
         "date": "22/02/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/ejercicios/peso_muerto.jpg"
+        "img": "images/ejercicios/peso_muerto.jpg"
     },
     {
         "name": "Press Militar",
@@ -33,7 +33,7 @@
         "valoration": "8.9",
         "date": "30/06/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/ejercicios/press_militar.jpg"
+        "img": "images/ejercicios/press_militar.jpg"
     },
     {
         "name": "Fondos",
@@ -42,7 +42,7 @@
         "valoration": "8.7",
         "date": "06/03/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/ejercicios/fondos_paralela.jpg"
+        "img": "images/ejercicios/fondos_paralela.jpg"
     },
     {
         "name": "Dieta Mediterránea",
@@ -50,7 +50,7 @@
         "valoration": "7.2",
         "date": "12/03/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/dietas/dieta_mediterranea.jpg"
+        "img": "images/dietas/dieta_mediterranea.jpg"
     },
     {
         "name": "Dieta Vegetariana",
@@ -58,7 +58,7 @@
         "valoration": "6",
         "date": "02/02/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/dietas/dieta_vegetariana.jpg"
+        "img": "images/dietas/dieta_vegetariana.jpg"
     },
     {
         "name": "Dieta Flexiteriana",
@@ -66,7 +66,7 @@
         "valoration": "6.4",
         "date": "20/02/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/dietas/dieta_flexiteriana.jpg"
+        "img": "images/dietas/dieta_flexitariana.jpg"
     },
     {
         "name": "Dieta Carnivora",
@@ -74,7 +74,7 @@
         "valoration": "6.5",
         "date": "12/03/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/dietas/dieta_carnivora.jpg"
+        "img": "images/dietas/dieta_carnivora.jpg"
     },
     {
         "name": "Dieta Catogenica",
@@ -82,6 +82,6 @@
         "valoration": "6.6",
         "date": "03/05/2021",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
-        "img": "../images/dietas/dieta_catogenica.jpg"
+        "img": "images/dietas/dieta_catogenica.jpg"
     }
 ]

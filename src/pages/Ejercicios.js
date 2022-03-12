@@ -19,7 +19,10 @@ function Ejercicios() {
             </header>
 
             <main className='ejercicios-main'>
-                <ArticlesList title={"Últimos ejercicios"} />
+                <ArticlesList
+                    title={"Últimos ejercicios"}
+                    type={'ejercicio'}
+                />
             </main>
 
             <footer className='ejercicios-footer'>

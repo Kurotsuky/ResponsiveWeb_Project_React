@@ -225,7 +225,10 @@ main {
   color: #3e92b3;
 }
 
-.pagination span a:first-of-type,
+.pagination span a:hover {
+  cursor: pointer;
+}
+
 .pagination .active {
   font-weight: 500;
   color: #bbba39;

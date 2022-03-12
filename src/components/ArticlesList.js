@@ -1,47 +1,61 @@
+import { useState, useEffect } from 'react';
 import Pagination from '../components/Pagination';
+import databaseJson from '../database.json';
 
 
 export default function ArticlesList(props) {
+    const [actualPage, setActualPage] = useState(1);
+    const TOTAL_BY_PAGES = 4;
+
+    let data = databaseJson;
+
+    const filterData = (data) => {
+        let result = data.map((object) => {
+            return (object.type == props.type) || (props.type == "all")
+                ? object : "";
+        });
+        return result.filter(Boolean);
+    }
+
+    const dataLoad = () => {
+        data = filterData(data);
+        data = data.slice(
+            (actualPage - 1) * TOTAL_BY_PAGES,
+            actualPage * TOTAL_BY_PAGES
+        );
+    }
+
+    const getTotalPage = () => {
+        let dataLength = filterData(databaseJson).length;
+        return Math.ceil(dataLength / TOTAL_BY_PAGES);
+    }
+
+    dataLoad();
+
+
     return (
-        <section className='articles-list'>
+        <section className='articles-list' id='articles-list'>
             <h2>{props.title}</h2>
-            <article>
-                <div className='article-content'>
-                    <a href="#">
-                        <img src={require('../images/ejercicios/press_militar.jpg')} alt="" />
-                        <h2>Press Militar</h2>
-                    </a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.</p>
-                </div>
-            </article>
-            <article>
-                <div className='article-content'>
-                    <a href="#">
-                        <img src={require('../images/dietas/dieta_catogenica.jpg')} alt="" />
-                        <h2>Dieta Catogenica</h2>
-                    </a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.</p>
-                </div>
-            </article>
-            <article>
-                <div className='article-content'>
-                    <a href="#">
-                        <img src={require('../images/ejercicios/sentadillas.jpg')} alt="" />
-                        <h2>Sentadillas</h2>
-                    </a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.</p>
-                </div>
-            </article>
-            <article>
-                <div className='article-content'>
-                    <a href="#">
-                        <img src={require('../images/ejercicios/pectoral.jpg')} alt="" />
-                        <h2>Press Banca</h2>
-                    </a>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.</p>
-                </div>
-            </article>
-            <Pagination />
-        </section>
+
+            {data.map((object) => {
+                return (
+                    <article>
+                        <div className='article-content'>
+                            <a href="#">
+                                <img src={object.img} alt="" />
+                                <h2> {object.name}</h2>
+                            </a>
+                            <p>{object.description}</p>
+                        </div>
+                    </article>
+                );
+            })}
+
+            <Pagination
+                page={actualPage}
+                total={getTotalPage()}
+                onChange={(page) => { setActualPage(page) }}
+            />
+        </section >
     );
 }
