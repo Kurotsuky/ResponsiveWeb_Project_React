@@ -4,12 +4,12 @@ export default function Header(props) {
 
     return (
         <>
-            <div class="header-title">
+            <div className='header-title'>
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
             </div>
             {existCategories
-                ? <ul class="header-categories">
+                ? <ul className='header-categories'>
                     {categories.map((categorie) => {
                         return (
                             <li><a href="#"><span>{categorie}</span></a></li>
