@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Pagination from '../components/Pagination';
 import databaseJson from '../database.json';
+import Article from './Article';
 
 
 export default function ArticlesList(props) {
@@ -39,20 +40,12 @@ export default function ArticlesList(props) {
 
             {data.map((object) => {
                 return (
-                    <article>
-                        <div className='article-content'>
-                            <a href="#">
-                                <img src={object.img} alt="" />
-                                <h2> {object.name}</h2>
-                            </a>
-                            <p>{object.description}</p>
-
-                            {object.muscles
-                                ? <p><strong>Musculos trabajados:</strong> {object.muscles}</p>
-                                : ""
-                            }
-                        </div>
-                    </article>
+                    <Article
+                        name={object.name}
+                        description={object.description}
+                        img={object.img}
+                        muscles={object.muscles}
+                    />
                 );
             })}
 
