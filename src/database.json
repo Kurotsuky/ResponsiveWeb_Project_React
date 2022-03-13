@@ -3,7 +3,7 @@
         "name": "Press Banca",
         "type": "ejercicio",
         "category": ["pecho"],
-        "valoration": "9.5",
+        "valoration": "9",
         "date": "17/03/2021",
         "description": "Para iniciar la realización del ejercicio es necesario acostarse en un banco plano con los glúteos, caderas y hombros sobre el banco. Los pies deben apoyarse en el suelo, separados un poco más allá del ancho de lo hombros. Con las manos debemos tomar la barra de manera que las palmas miren hacia adelante, es decir, en pronación, y separadas ligeramente más allá de la anchura de los hombros. Desde allí debemos inspirar y descender lentamente la barra hacia el pecho, sin despegar la espalda del banco. Una vez la barra esté sobre el pecho debemos empujar hacia arriba mientras espiramos y subimos lentamente los brazos.",
         "muscles": "Principalmente el pectoral mayor, aunque también se demanda el trabajo del pectoral menor, los tríceps, el deltoides anterior, los serratos y el coracobraquial.",
@@ -13,7 +13,7 @@
         "name": "Sentadillas",
         "type": "ejercicio",
         "category": ["cuadriceps"],
-        "valoration": "9.6",
+        "valoration": "9.3",
         "date": "21/05/2021",
         "description": "Es un movimiento que se inicia de pie, mirando al frente y con la espalda recta, mientras los pies se separan del ancho de los hombros. Siempre mirando al frente y sin curvar la espalda, debemos descender los glúteos flexionando la rodilla y la cadera. Descendemos hasta que los muslos quedan paralelos al suelo y desde allí debemos elevarnos lentamente mientras exhalamos el aire inhalado al comenzar el descenso del cuerpo.",
         "muscles": "Prácticamente todo el cuerpo, pero el trabajo se concentra en el tren inferior y los músculos más solicitados son los cuádriceps, glúteos e isquiotibiales.",
@@ -23,7 +23,7 @@
         "name": "Peso Muerto",
         "type": "ejercicio",
         "category": ["gluteos", "espalda"],
-        "valoration": "9.8",
+        "valoration": "9.6",
         "date": "22/02/2021",
         "description": "Debemos colocarnos de pie frente a una barra situada en el suelo, con las piernas ligeramente separadas y las rodillas levemente flexionadas. Desde esta posición inicial debemos inclinar el tronco hacia adelante manteniendo la espalda recta y coger la barra con las manos mientras las palmas miran hacia el cuerpo, es decir, en pronación. Inspiramos y subimos el cuerpo, colocándonos en posición vertical nuevamente. Espiramos al final del movimiento.",
         "muscles": "Sobre todo los músculos situados en la parte posterior de las piernas, ya que al enderezar el torso cargando peso se trabaja el glúteo mayor y los isquiotibiales o femorales.",
@@ -33,7 +33,7 @@
         "name": "Press Militar",
         "type": "ejercicio",
         "category": ["hombros"],
-        "valoration": "8.9",
+        "valoration": "8.2",
         "date": "30/06/2021",
         "description": "Con una barra cogida en pronación, con las manos algo más separadas que la anchura de los hombros y con la espalda bien recta, llevamos la barra con las manos hasta la parte alta del pecho, casi a la altura de los hombros. Inspiramos y elevamos la barra hacia arriba de nuestra cabeza.",
         "muscles": "Sobre todo los hombros, pues gran parte del trabajo lo realizan los deltoides, anterior y externo, aunque también participan en el movimiento el trapecio y serrato mayor.",
@@ -43,11 +43,131 @@
         "name": "Fondos",
         "type": "ejercicio",
         "category": ["triceps"],
-        "valoration": "8.7",
+        "valoration": "8",
         "date": "06/03/2021",
         "description": "Se requiere de una máquina de paralelas en la cual debemos apoyar las manos y elevar el cuerpo de manera de despegar los pies del suelo. Con las piernas en el aire, el tronco ligeramente inclinado hacia adelante y los brazos soportando el peso del cuerpo, iniciamos el ejercicio. Inspiramos y flexionamos los codos de manera de que el pecho descienda hasta el nivel de las barras, siempre conservando las piernas y el torso inmóvil. Sólo debe moverse el cuerpo hacia abajo y arriba por la flexión de brazos.",
         "muscles": "Principalmente del pectoral mayor y de los tríceps. Cuanto más inclinado esté el tronco hacia adelante más se concentra la fuerza en el pectoral, mientras que si el tronco está erguido se requiere del trabajo de los tríceps sobre todo.",
         "img": "images/ejercicios/fondos_paralela.jpg"
+    },
+    {
+        "name": "L-Sit",
+        "type": "ejercicio",
+        "category": ["abdominal"],
+        "valoration": "8.2",
+        "date": "13/03/2021",
+        "description": "Se requiere de una máquina de paralelas en la cual podemos apoyar las manos para mayor facilidad, aunque se puede hacer apoyándonos en el suelo. Consiste en elevar las piernas delante nuestra de forma erguida y mantener la postura.",
+        "muscles": "Trapecios, deltoides, tríceps, toda la zona del core, cuádriceps y femorales.",
+        "img": "images/ejercicios/l-sit.jpg"
+    },
+    {
+        "name": "Dominadas",
+        "type": "ejercicio",
+        "category": ["espalda"],
+        "valoration": "9.2",
+        "date": "26/02/2021",
+        "description": "Se requiere de una barra fija a nuestra altura o mayor. Nos colgamos de la barra de dominadas y jalamos hacia la barra, elevando el cuerpo hasta que la cabeza sobrepase la barra. El agarre puede ser el que queramos, porno, supino o neutro mientras que la anchora del agarre puede variar mucho, desde un agarre ancho hasta el mas estrecho.",
+        "muscles": "Son el dorsal ancho, el bíceps, el pectoral, el trapecio, los romboides, el músculo redondo mayor, el músculo redondo menor y el infraespinoso.",
+        "img": "images/ejercicios/dominadas.jpg"
+    },
+    {
+        "name": "Curl Femoral",
+        "type": "ejercicio",
+        "category": ["isquiotibiales"],
+        "valoration": "5.8",
+        "date": "28/02/2021",
+        "description": "Debemos colocarnos en la máquina específica para su realización, tumbados boca abajo con los tobillos justo debajo de los cojines y las manos sujetando los agarres que se encuentran debajo del banco de apoyo. Previamente cargamos la máquina con el peso que deseamos y comenzamos inspirando mientras flexionamos las rodillas para elevar con los tobillos el peso cargado. Espiramos cuando la rodilla está flexionada y los talones se encuentran cerca de los glúteos y comenzamos a regresar a la posición inicial controlando el movimiento.",
+        "muscles": "Los isquiotibiales o femorales. Trabaja la porción larga y corta del bíceps crural, el semitendinoso y semimembranoso.",
+        "img": "images/ejercicios/curl_femoral.jpg"
+    },
+    {
+        "name": "Elevación de Talones",
+        "type": "ejercicio",
+        "category": ["gemelos"],
+        "valoration": "6",
+        "date": "02/03/2021",
+        "description": "Para realizar el movimiento debemos comenzar de pie, con los pies separados aproximadamente de la anchura de los hombros y las rodillas ligeramente flexionadas debemos despegar los talones del suelo mientras realizamos una extensión de los pies para elevar el cuerpo mientras éste queda sostenido por la punta del pie. Este ejercicio también puede realizarse en máquina específica, en la cual debemos colocar los hombros bajo unas almohadillas forradas y  los pies sobre una plataforma, para después movilizar con la elevación de talones un gran peso.",
+        "muscles": "El tríceps sural que está compuesto por músculos como el sóleo y los gemelos.",
+        "img": "images/ejercicios/calf_raise.jpg"
+    },
+    {
+        "name": "Curl Bíceps",
+        "type": "ejercicio",
+        "category": ["biceps"],
+        "valoration": "6",
+        "date": "05/03/2021",
+        "description": "Tomaremos una barra o unas mancuernas con las manos, de manera que las palmas miren hacia arriba, es decir, con agarre en supinación. Las manos deben estar separadas en la barra un poco más allá de la anchura de los hombros. Desde esta posición, sin movilizar el tronco y manteniendo los codos a los lados del cuerpo, debemos inspirar y flexionar los codos mientras acercamos la barra al pecho y contraemos glúteos, abdominales y espinales para no mover el tronco.",
+        "muscles": "El bíceps braquial en su porción larga y corta y el braquial anterior.",
+        "img": "images/ejercicios/curl_biceps.jpg"
+    },
+    {
+        "name": "Flexión de Pino",
+        "type": "ejercicio",
+        "category": ["hombros"],
+        "valoration": "8.4",
+        "date": "02/02/2021",
+        "description": "Para comenzar el ejercicio debemos apoyar ambas palmas de las manos en el suelo, separadas poco más allá del ancho de los hombros. Con los brazos extendidos, nos colocamos en posición vertical mediante la contracción del abdomen. Siempre con la espalda recta y las piernas juntas descendemos lentamente mediante la flexión de brazos todo el cuerpo hasta tocar el suelo con la cabeza por delante de las manos. Y lentamente se regresa a la posición inicial para completar una repetición del ejercicio.",
+        "muscles": "Los hombros y tríceps, pero de manera secundaria intervienen los músculos del core, sobre todo, lumbares y abdominales.",
+        "img": "images/ejercicios/flexion_pino.jpg"
+    },
+    {
+        "name": "Flexiónes de brazos",
+        "type": "ejercicio",
+        "category": ["pecho"],
+        "valoration": "8",
+        "date": "16/02/2021",
+        "description": "Debemos colocarnos en el suelo, en decúbito ventral o boca hacia abajo. Apoyamos las manos en el suelo, justo por debajo de los hombros y separadas de este ancho. Con los pies levemente separados o juntos, despegamos el torso del suelo impulsándonos con los brazos y el pecho. En ningún momento debemos levantar los glúteos o quebrar la cintura para realizar la flexión, sino que el cuerpo debe movilizarse simplemente por flexionar y extender los brazos y desde la cabeza a los pies, el cuerpo debe formar una línea recta. Así, al flexionar los brazos inspiramos y descendemos el torso hasta que éste se sitúe cerca del suelo, evitando curvar mucho la zona lumbar de la espalda. Exhalamos y regresamos lentamente a la posición previa en donde los brazos quedan extendidos.",
+        "muscles": "Principalmente el pectoral, asimismo, con este movimiento requerimos del trabajo del tríceps. Podemos incidir más en este músculo si colocamos las manos más cerca del cuerpo, es decir, con una apertura más estrecha.",
+        "img": "images/ejercicios/flexiones.jpg"
+    },
+    {
+        "name": "Patada de Tríceps",
+        "type": "ejercicio",
+        "category": ["triceps"],
+        "valoration": "7",
+        "date": "21/02/2021",
+        "description": "Requerimos de una mancuerna o una polea. De pie, con la mano del brazo que vayas a trabajar primero, coge la macuerna o el agarre de la polea. Las palmas deben estar enfocadas hacia el cuerpo. El cuerpo tiene que estar casi paralelo al suelo. Los brazos, cerca del cuerpo y también paralelos al suelo. Debes de formar un ángulo recto entre el antebrazo y la parte superior del brazo. Empieza el movimiento inspirando y utilizando el tríceps para levantar la mancuerna hasta que el brazo quede completamente extendido. Céntrate en mover el antebrazo. Luego, párate unos segundos antes de descender, expulsa el aire y empieza a descender hacia la posición inicial.",
+        "muscles": "Principalmente el tríceps, pero tambien de manera secundaria el infraespinoso, supraespinoso y deltoides.",
+        "img": "images/ejercicios/patada_triceps.jpg"
+    },
+    {
+        "name": "Press Pallof con Rotación",
+        "type": "ejercicio",
+        "category": ["abdominal"],
+        "valoration": "7.8",
+        "date": "02/03/2021",
+        "description": "Requerimos de una polea o una banda elástica. La postura básica sería situar las piernas a la anchura de los hombros (básicamente encontrar una posición que sea estable) y agarrar la polea con ambas manos separádnolas al máximo de nuestro cuerpo, y generando suficiente tensión (separándonos de la polea). Lo que tenemos que hacer es, con suficiente tensión y bien compactados, rotar en la dirección opuesta a la que esta la polea, y luego volver a la postura incial de manera controlada.",
+        "muscles": "Los abdominales. Sobre todo los músculos oblícuos. También hay gran activación del cuadrado lumbar y pectoral que está más cerca de la resistencia.",
+        "img": "images/ejercicios/press_pallof_rotation.jpg"
+    },
+    {
+        "name": "Press de Piernas",
+        "type": "ejercicio",
+        "category": ["cuadriceps", "gluteos"],
+        "valoration": "8.8",
+        "date": "01/03/2021",
+        "description": "Debemos emplear una máquina que funciona como su nombre lo indica, como una prensa en la cual nosotros debemos resistir el peso seleccionado y cargado previamente. Nos colocaremos con la espalda bien apoyada en el respaldo de la máquina llamada prensa inclinada a 45 grados y los pies sobre la plataforma que debemos empujar, medianamente separados entre sí. Quitamos los soportes laterales del peso y empujamos la plataforma con las piernas para dejar casi extendidas las mismas. Desde allí, inspiramos y con las rodillas desbloqueadas flexionamos las piernas hasta que los muslos lleguen lo más cercano posible de la caja torácica sin sobrepasar el ángulo de 90 grados con las piernas. Lentamente regresamos a la posición inicial sin extender por completo las rodillas y exhalamos al final del movimiento.",
+        "muscles": "Sobre todo, los cuádriceps. Aunque si los pies se sitúan en la parte baja de la plataforma de la máquina éstos se trabajarán de manera prioritaria, mientras que si los pies se apoyan en la parte alta de la plataforma se solicitarán sobre todo los glúteos e isquiotibiales.",
+        "img": "images/ejercicios/press_pierna.jpg"
+    },
+    {
+        "name": "Remo con Máquina",
+        "type": "ejercicio",
+        "category": ["espalda"],
+        "valoration": "8.1",
+        "date": "14/03/2021",
+        "description": "Requerimos una máquina de remo. Nos sentamos en ella, cogemos el agarre de la máquina estirando todo lo que podamos los brazos, y nos colocaremos con las piernas subidas a sus reposapies y de manera flexionada. Desde esta posición inicial, inspiraremos y extenderemos las piernas a la vez que traeremos el agarre hacia nuestra cadera. Luego volvemos a la posición inicial de forma controlada mientras expiramos.",
+        "muscles": "Estamos trabajando prácticamente toda la musculatura de nuestro cuerpo (desde la musculatura de nuestros antebrazos para realizar un buen agarre hasta la musculatura de nuestras piernas).",
+        "img": "images/ejercicios/remo_maquina.jpg"
+    },
+    {
+        "name": "Patada Lateral",
+        "type": "ejercicio",
+        "category": ["gluteos"],
+        "valoration": "7.5",
+        "date": "11/03/2021",
+        "description": "Nos colocaremos en el suelo, o si tenemos, en una esterilla o colchoneta, en posición de cuadrupedia. Levantamos una de la dos piernas, hacia el costado hasta la altura de la cadera. Y vuelve a la recoger la pierna hacia la posición inicial.",
+        "muscles": "Trabajan especialmente los glúteos, los músculos flexores de la cadera, del núcleo abdominal y de los abductores.",
+        "img": "images/ejercicios/side_kick.jpg"
     },
     {
         "name": "Dieta Mediterránea",
@@ -88,5 +208,21 @@
         "date": "03/05/2021",
         "description": "Es una dieta estricta de alto contenido en grasas y baja en hidratos de carbono que puede reducir, y a veces hasta detener por completo, las crisis epilépticas. Los alimentos típicos que se consumen en la dieta cetogénica son pescados, mariscos, queso, grasas naturales como aguacate, mantequilla de pasto, aceite de coco y aceite de oliva, carne, huevos y verduras que crecen sobre el suelo.",
         "img": "images/dietas/dieta_catogenica.jpg"
+    },
+    {
+        "name": "Dieta Atkins",
+        "type": "dieta",
+        "valoration": "6.2",
+        "date": "15/05/2021",
+        "description": "Esta dieta limita la cantidad de hidratos de carbono y se centra en los alimentos con aporte de proteínas y grasa. Sostiene que comer demasiados carbohidratos, especialmente azúcar, harina blanca y otros carbohidratos refinados, conduce a desequilibrios de glucosa en la sangre, aumento de peso y problemas cardiovasculares. Con ese fin, la dieta Atkins restringe los carbohidratos e incentiva comer más proteínas y grasas. Sin embargo, la dieta Atkins dice que no es una dieta alta en proteínas.",
+        "img": "images/dietas/dieta_atkins.jpg"
+    },
+    {
+        "name": "Dieta Oriental",
+        "type": "dieta",
+        "valoration": "6.4",
+        "date": "06/01/2021",
+        "description": "Se basa en no ingerir muchas calorías, y repartidas en pequeñas comidas a lo largo del día. Se ingieren gran cantidad de verduras, solas o en guarnición, y los cereales integrales, grandes fuentes de fibra, las que necesita el organismo para su correcto desarrollo. El arroz les aporta carbohidratos, vitaminas y minerales. Las algas son parte importante de la dieta oriental. Son ricas en minerales y en calcio. Alimentos muy habituales como el mijo, el tofú, la soja aportan hierro, fósforo, vitamina A, calcio y vitamina B.",
+        "img": "images/dietas/dieta_oriental.jpg"
     }
 ]

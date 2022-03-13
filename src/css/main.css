@@ -210,6 +210,10 @@ main {
   color: #b5c8d1;
 }
 
+.articles-list > article .article-content p:nth-child(3) {
+  margin-top: 1.25rem;
+}
+
 /* --- PAGINACION --- */
 .pagination-container {
   margin-top: 5%;

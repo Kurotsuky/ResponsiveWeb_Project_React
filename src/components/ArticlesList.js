@@ -48,10 +48,7 @@ export default function ArticlesList(props) {
                             <p>{object.description}</p>
 
                             {object.muscles
-                                ? <>
-                                    <br />
-                                    <p><strong>Musculos trabajados:</strong> {object.muscles}</p>
-                                </>
+                                ? <p><strong>Musculos trabajados:</strong> {object.muscles}</p>
                                 : ""
                             }
                         </div>
