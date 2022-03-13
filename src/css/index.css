@@ -88,14 +88,31 @@
 
 @media screen and (max-width: 1440px) {
   .home-header {
-    height: 51.31vw;
+    height: 48.288vw;
   }
 
   .slider-container {
-    width: 85%;
+    width: 80%;
+  }
+
+  .slider-description-text {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-header {
+    height: 54.324vw;
+  }
+
+  .slider-container {
+    width: 90%;
   }
 
   .slider-description-text {
     font-size: 2.5rem;
   }
+}
+
+@media screen and (max-width: 400px) {
 }
