@@ -10,11 +10,11 @@ export default function ArticlesList(props) {
     let data = databaseJson;
 
     const filterData = (data) => {
-        let result = data.map((object) => {
-            return (object.type == props.type) || (props.type == "all")
-                ? object : "";
+        if (props.type == "all") { return data }
+
+        return data.filter((object) => {
+            return object.type == props.type;
         });
-        return result.filter(Boolean);
     }
 
     const dataLoad = () => {
@@ -46,6 +46,14 @@ export default function ArticlesList(props) {
                                 <h2> {object.name}</h2>
                             </a>
                             <p>{object.description}</p>
+
+                            {object.muscles
+                                ? <>
+                                    <br />
+                                    <p><strong>Musculos trabajados:</strong> {object.muscles}</p>
+                                </>
+                                : ""
+                            }
                         </div>
                     </article>
                 );

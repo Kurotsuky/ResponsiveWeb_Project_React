@@ -5,7 +5,8 @@
         "category": ["pecho"],
         "valoration": "9.5",
         "date": "17/03/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Para iniciar la realización del ejercicio es necesario acostarse en un banco plano con los glúteos, caderas y hombros sobre el banco. Los pies deben apoyarse en el suelo, separados un poco más allá del ancho de lo hombros. Con las manos debemos tomar la barra de manera que las palmas miren hacia adelante, es decir, en pronación, y separadas ligeramente más allá de la anchura de los hombros. Desde allí debemos inspirar y descender lentamente la barra hacia el pecho, sin despegar la espalda del banco. Una vez la barra esté sobre el pecho debemos empujar hacia arriba mientras espiramos y subimos lentamente los brazos.",
+        "muscles": "Principalmente el pectoral mayor, aunque también se demanda el trabajo del pectoral menor, los tríceps, el deltoides anterior, los serratos y el coracobraquial.",
         "img": "images/ejercicios/press_banca.jpg"
     },
     {
@@ -14,7 +15,8 @@
         "category": ["cuadriceps"],
         "valoration": "9.6",
         "date": "21/05/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Es un movimiento que se inicia de pie, mirando al frente y con la espalda recta, mientras los pies se separan del ancho de los hombros. Siempre mirando al frente y sin curvar la espalda, debemos descender los glúteos flexionando la rodilla y la cadera. Descendemos hasta que los muslos quedan paralelos al suelo y desde allí debemos elevarnos lentamente mientras exhalamos el aire inhalado al comenzar el descenso del cuerpo.",
+        "muscles": "Prácticamente todo el cuerpo, pero el trabajo se concentra en el tren inferior y los músculos más solicitados son los cuádriceps, glúteos e isquiotibiales.",
         "img": "images/ejercicios/sentadillas.jpg"
     },
     {
@@ -23,7 +25,8 @@
         "category": ["gluteos", "espalda"],
         "valoration": "9.8",
         "date": "22/02/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Debemos colocarnos de pie frente a una barra situada en el suelo, con las piernas ligeramente separadas y las rodillas levemente flexionadas. Desde esta posición inicial debemos inclinar el tronco hacia adelante manteniendo la espalda recta y coger la barra con las manos mientras las palmas miran hacia el cuerpo, es decir, en pronación. Inspiramos y subimos el cuerpo, colocándonos en posición vertical nuevamente. Espiramos al final del movimiento.",
+        "muscles": "Sobre todo los músculos situados en la parte posterior de las piernas, ya que al enderezar el torso cargando peso se trabaja el glúteo mayor y los isquiotibiales o femorales.",
         "img": "images/ejercicios/peso_muerto.jpg"
     },
     {
@@ -32,7 +35,8 @@
         "category": ["hombros"],
         "valoration": "8.9",
         "date": "30/06/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Con una barra cogida en pronación, con las manos algo más separadas que la anchura de los hombros y con la espalda bien recta, llevamos la barra con las manos hasta la parte alta del pecho, casi a la altura de los hombros. Inspiramos y elevamos la barra hacia arriba de nuestra cabeza.",
+        "muscles": "Sobre todo los hombros, pues gran parte del trabajo lo realizan los deltoides, anterior y externo, aunque también participan en el movimiento el trapecio y serrato mayor.",
         "img": "images/ejercicios/press_militar.jpg"
     },
     {
@@ -41,7 +45,8 @@
         "category": ["triceps"],
         "valoration": "8.7",
         "date": "06/03/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Se requiere de una máquina de paralelas en la cual debemos apoyar las manos y elevar el cuerpo de manera de despegar los pies del suelo. Con las piernas en el aire, el tronco ligeramente inclinado hacia adelante y los brazos soportando el peso del cuerpo, iniciamos el ejercicio. Inspiramos y flexionamos los codos de manera de que el pecho descienda hasta el nivel de las barras, siempre conservando las piernas y el torso inmóvil. Sólo debe moverse el cuerpo hacia abajo y arriba por la flexión de brazos.",
+        "muscles": "Principalmente del pectoral mayor y de los tríceps. Cuanto más inclinado esté el tronco hacia adelante más se concentra la fuerza en el pectoral, mientras que si el tronco está erguido se requiere del trabajo de los tríceps sobre todo.",
         "img": "images/ejercicios/fondos_paralela.jpg"
     },
     {
@@ -49,7 +54,7 @@
         "type": "dieta",
         "valoration": "7.2",
         "date": "12/03/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Es una forma de alimentación basada en las cocinas tradicionales de Grecia, Italia y otros países que bordean el mar Mediterráneo. Los alimentos de origen vegetal, como cereales integrales, verduras, legumbres, frutas, frutos secos, semillas, hierbas y especias, son la base de la dieta. El aceite de oliva es la principal fuente de grasa agregada. Se incluyen con moderación el pescado, los mariscos, los lácteos y la carne de aves. Por el contrario, la carne roja y los dulces solo se comen ocasionalmente.",
         "img": "images/dietas/dieta_mediterranea.jpg"
     },
     {
@@ -57,7 +62,7 @@
         "type": "dieta",
         "valoration": "6",
         "date": "02/02/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Se enfoca a la alimentación con verduras. Esto incluye frutas, verduras, guisantes y alubias secas, granos, semillas y nueces. No existe un único tipo de dieta vegetariana. Las personas que siguen dietas vegetarianas pueden obtener todos los nutrientes que necesitan. Sin embargo, deben tener cuidado de comer una amplia variedad de alimentos para cubrir sus necesidades nutricionales. Los nutrientes vegetarianos deben enfocarse en incluir proteínas, hierro, calcio, zinc y vitamina B12.",
         "img": "images/dietas/dieta_vegetariana.jpg"
     },
     {
@@ -65,7 +70,7 @@
         "type": "dieta",
         "valoration": "6.4",
         "date": "20/02/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Es una dieta vegetariana con un bajo consumo de productos de origen animal. Este modelo de alimentación se caracteriza por tener en la base de la alimentación hortalizas y verduras combinadas con legumbres, pastas, arroces, harinas, tubérculos y frutos secos. El consumo ocasional de alimentos de origen animal se centra principalmente en los lácteos y los huevos y, de forma todavía más esporádica, pescados y carnes.",
         "img": "images/dietas/dieta_flexitariana.jpg"
     },
     {
@@ -73,15 +78,15 @@
         "type": "dieta",
         "valoration": "6.5",
         "date": "12/03/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Significa obtener nutrición de alimentos de origen animal y limitar o eliminar severamente todas las plantas de la dieta. Los alimentos que incluye son carne de ternera, pollo, cerdo, cordero, pavo, vísceras, salmón, sardinas, pescado blanco y pequeñas cantidades de nata y queso curado. También se permite la mantequilla, la manteca de cerdo y el tuétano.",
         "img": "images/dietas/dieta_carnivora.jpg"
     },
     {
-        "name": "Dieta Catogenica",
+        "name": "Dieta Cetogénica",
         "type": "dieta",
         "valoration": "6.6",
         "date": "03/05/2021",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dicta doloribus ea iste animi consectetur quaerat esse ipsum fuga harum tempora accusantium, aperiam molestias, velit unde perspiciatis. Qui, eveniet fugiat.",
+        "description": "Es una dieta estricta de alto contenido en grasas y baja en hidratos de carbono que puede reducir, y a veces hasta detener por completo, las crisis epilépticas. Los alimentos típicos que se consumen en la dieta cetogénica son pescados, mariscos, queso, grasas naturales como aguacate, mantequilla de pasto, aceite de coco y aceite de oliva, carne, huevos y verduras que crecen sobre el suelo.",
         "img": "images/dietas/dieta_catogenica.jpg"
     }
 ]
