@@ -11,6 +11,12 @@ html {
   width: 100%;
 }
 
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: calc(1rem + 2px);
+  }
+}
+
 body {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -20,6 +26,7 @@ body {
 
 p {
   text-align: justify;
+  font-size: 1.1rem;
 }
 
 ul,
@@ -30,6 +37,10 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 strong {
@@ -43,7 +54,7 @@ strong {
   justify-content: space-between;
   padding: 0 2rem;
   background-color: #212332;
-  font-size: 1.1rem;
+  font-size: 1.2em;
   z-index: 1;
 
   font-weight: 500;
@@ -214,6 +225,16 @@ main {
   margin-top: 1.25rem;
 }
 
+@media screen and (max-width: 1440px) {
+  .articles-list {
+    width: 60%;
+  }
+
+  .articles-list > article .article-content img {
+    height: 31.95vw;
+  }
+}
+
 /* --- PAGINACION --- */
 .pagination-container {
   margin-top: 5%;
@@ -254,6 +275,7 @@ footer {
   background-color: #0c1122;
   height: 18rem;
   color: #c8cccd;
+  font-size: 1.1rem;
 
   display: flex;
   justify-content: center;
