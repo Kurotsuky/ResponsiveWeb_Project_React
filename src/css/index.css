@@ -102,11 +102,12 @@
 
 @media screen and (max-width: 1024px) {
   .home-header {
-    height: 54.324vw;
+    height: 52.9659vw;
   }
 
   .slider-container {
-    width: 90%;
+    width: 97.5%;
+    height: 90%;
   }
 
   .slider-description-text {
@@ -114,5 +115,8 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
+  .home-header {
+    display: none;
+  }
 }
