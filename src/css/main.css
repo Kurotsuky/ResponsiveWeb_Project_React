@@ -138,11 +138,9 @@ strong {
   }
 
   .navbar-header {
-    display: none;
+    font-size: 3rem;
+    text-align: center;
   }
-}
-
-@media screen and (max-width: 376px) {
 }
 
 /* --- HEADER --- */
@@ -243,6 +241,12 @@ main {
 
   .header-categories > li {
     width: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header-categories > li {
+    width: 33.33%;
   }
 }
 
@@ -397,10 +401,6 @@ main {
     font-size: 1.1rem;
   }
 }
-
-@media screen and (max-width: 376px) {
-}
-
 /* --- FOOTER --- */
 footer {
   background-color: #0c1122;
