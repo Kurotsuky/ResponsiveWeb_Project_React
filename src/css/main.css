@@ -370,9 +370,10 @@ main {
 
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
-.pagination span:first-child {
+.pagination span:first-of-type {
   color: #b5c8d1;
   margin-right: 5%;
 }
@@ -380,6 +381,29 @@ main {
 .pagination span a {
   padding-right: 0.5rem;
   color: #3e92b3;
+}
+
+.pagination > button {
+  height: 1.1rem;
+  margin-right: 0.7rem;
+  transform: rotateY(180deg);
+  background-color: inherit;
+  border: none;
+}
+
+.pagination > span + button {
+  margin-right: 0;
+  margin-left: 0.7rem;
+  transform: rotateY(0);
+}
+
+.pagination > button:hover {
+  cursor: pointer;
+}
+
+.pagination > button > img {
+  height: 1.1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 .pagination span a:hover {

@@ -5,7 +5,6 @@ export default function Pagination(props) {
             let page = i + 1;
             result.push(
                 <a
-                    href="#articles-list"
                     onClick={() => props.onChange(page)}
                     className={props.page === page ? 'active' : ''}
                 >
@@ -19,8 +18,24 @@ export default function Pagination(props) {
     return (
         <section className="pagination-container">
             <div className="pagination">
+
+                {props.page !== 1
+                    ? <button
+                        onClick={() => props.onChange(props.page - 1)}>
+                        <img src="images/adelante.png" alt="" />
+                    </button>
+                    : ""
+                }
+
                 <span>Página {props.page} de {props.total}:</span>
                 <span>{getPages()}</span>
+                {props.page !== props.total
+                    ? <button
+                        onClick={() => props.onChange(props.page + 1)}>
+                        <img src="images/adelante.png" alt="" />
+                    </button>
+                    : ""
+                }
             </div>
         </section>
     );

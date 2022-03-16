@@ -31,6 +31,15 @@ export default function ArticlesList(props) {
         return Math.ceil(dataLength / TOTAL_BY_PAGES);
     }
 
+    const nextPage = (page) => {
+        const totalPage = getTotalPage();
+        if (page > totalPage || page < 1) {
+            return;
+        }
+        setActualPage(page);
+        window.location.href = "#articles-list";
+    }
+
     dataLoad();
 
 
@@ -52,7 +61,7 @@ export default function ArticlesList(props) {
             <Pagination
                 page={actualPage}
                 total={getTotalPage()}
-                onChange={(page) => { setActualPage(page) }}
+                onChange={(page) => { nextPage(page) }}
             />
         </section >
     );
