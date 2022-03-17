@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Pagination from '../components/Pagination';
 import databaseJson from '../database.json';
 import Article from './Article';
@@ -7,14 +7,26 @@ import Article from './Article';
 export default function ArticlesList(props) {
     const [actualPage, setActualPage] = useState(1);
     const TOTAL_BY_PAGES = 4;
+    const activeCategories = props.activeCategories;
 
     let data = databaseJson;
 
     const filterData = (data) => {
         if (props.type == "all") { return data }
 
-        return data.filter((object) => {
+        data = data.filter((object) => {
             return object.type == props.type;
+        });
+
+        if (!activeCategories || activeCategories.length === 0) {
+            return data;
+        }
+
+        return data.filter((object) => {
+            let isActive = object.category.map((category) => {
+                return activeCategories.includes(category);
+            });
+            return isActive.includes(true);
         });
     }
 
@@ -42,6 +54,11 @@ export default function ArticlesList(props) {
 
     dataLoad();
 
+    useEffect(() => {
+        if (data.length === 0) {
+            setActualPage(0);
+        }
+    }, [data.length]);
 
     return (
         <section className='articles-list' id='articles-list'>

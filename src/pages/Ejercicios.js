@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import Navigator from '../components/Navigator';
 import Footer from '../components/Footer';
@@ -5,7 +6,8 @@ import Header from '../components/Header';
 import ArticlesList from '../components/ArticlesList';
 
 function Ejercicios() {
-    let categories = ["Pecho", "Espalda", "Hombros", "Tríceps", "Bíceps", "Abdominal", "Cuádriceps", "Glúteos", "Isquiotibiales", "Gemelos"];
+    const categories = ["Pecho", "Espalda", "Hombros", "Triceps", "Biceps", "Abdominal", "Cuadriceps", "Gluteos", "Isquiotibiales", "Gemelos"];
+    const [activeCategories, setActiveCategories] = useState([]);
 
     return (
         <>
@@ -20,6 +22,7 @@ function Ejercicios() {
                     title={"Ejercicios"}
                     description={"Todo lo que necesitaras para completar tu rutina, y tener una buena salud"}
                     categories={categories}
+                    setCategories={setActiveCategories}
                 />
             </header>
 
@@ -27,6 +30,7 @@ function Ejercicios() {
                 <ArticlesList
                     title={"Últimos ejercicios"}
                     type={'ejercicio'}
+                    activeCategories={activeCategories}
                 />
             </main>
 
