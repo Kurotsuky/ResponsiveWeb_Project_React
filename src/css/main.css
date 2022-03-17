@@ -103,6 +103,17 @@ strong {
   color: #e2e7e8;
 }
 
+.nav-opened-background {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 200vh;
+  z-index: 0;
+}
+
 .navbar .menu-button {
   width: 8%;
   background-color: inherit;
@@ -124,7 +135,6 @@ strong {
     height: auto;
     padding: 0 1rem;
     font-size: 2rem;
-    position: relative;
   }
 
   .nav {
@@ -150,16 +160,8 @@ strong {
     top: 100%;
   }
 
-  .nav-opened-background {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
+  .nav-opened > .nav-opened-background {
     display: block;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
-    height: 200vh;
-    z-index: 0;
   }
 
   .nav > li {
