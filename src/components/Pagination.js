@@ -29,6 +29,7 @@ export default function Pagination(props) {
 
                 <span>Página {props.page} de {props.total}:</span>
                 <span>{getPages()}</span>
+
                 {props.page !== props.total
                     ? <button
                         onClick={() => props.onChange(props.page + 1)}>
