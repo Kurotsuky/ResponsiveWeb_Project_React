@@ -327,11 +327,48 @@ main {
   display: grid;
 }
 
-.articles-list > h2 {
+.articles-list > .articles-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles-list > .articles-header > h2 {
+  font-size: 2em;
   text-transform: uppercase;
 }
 
-.articles-list > h2,
+.articles-list > .articles-header > select {
+  width: 30%;
+  height: 80%;
+  color: #b2b5b6;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  padding: 0 1rem;
+
+  appearance: none;
+  background-color: #373f55;
+  background-image: url("/public/images/flecha-hacia-abajo-para-navegar.png");
+  background-repeat: no-repeat;
+  background-size: 6%;
+  background-position: 97%;
+  border: 0.2rem solid #17273a;
+  border-radius: 0.5rem;
+}
+
+.articles-list > .articles-header > select:hover {
+  filter: brightness(120%);
+}
+
+.articles-list > .articles-header > select:focus {
+  outline: 1px solid rgb(102, 106, 139);
+}
+
+.articles-list > .articles-header > select > option {
+  font-size: 1rem;
+}
+
+.articles-list > .articles-header,
 .articles-list > article {
   margin-bottom: 10%;
 }
@@ -403,6 +440,16 @@ main {
     padding-top: 5rem;
   }
 
+  .articles-list > .articles-header {
+    flex-direction: column;
+  }
+
+  .articles-list > .articles-header > select {
+    width: 35%;
+    height: 2rem;
+    margin-top: 1.75%;
+  }
+
   .articles-list > article .article-content img {
     height: 47.5vw;
   }
@@ -412,6 +459,10 @@ main {
   .articles-list {
     width: 98%;
     padding-top: 6rem;
+  }
+
+  .articles-list > .articles-header > select {
+    width: 40%;
   }
 
   .articles-list > article .article-content img {

@@ -62,7 +62,14 @@ export default function ArticlesList(props) {
 
     return (
         <section className='articles-list' id='articles-list'>
-            <h2>{props.title}</h2>
+            <div className='articles-header'>
+                <h2>{props.title}</h2>
+                <select id='sorter'>
+                    <option value="recientes">Recientes</option>
+                    <option value="antiguos">Más Antiguos</option>
+                    <option value="mejores">Mejores</option>
+                </select>
+            </div>
 
             {data.map((object) => {
                 return (
