@@ -14,13 +14,13 @@ function App() {
     <BrowserRouter>
       <Routes>
 
-        <Route path="/" element={<Home />} />
+        <Route path="/ResponsiveWeb_Project_React" element={<Home />} />
 
-        <Route path="/ejercicios" element={<Ejercicios />} />
+        <Route path="/ResponsiveWeb_Project_React/ejercicios" element={<Ejercicios />} />
 
-        <Route path="/dietas" element={<Dietas />} />
+        <Route path="/ResponsiveWeb_Project_React/dietas" element={<Dietas />} />
 
-        <Route path="/contactar" element={<Contactar />} />
+        <Route path="/ResponsiveWeb_Project_React/contactar" element={<Contactar />} />
 
       </Routes>
     </BrowserRouter>
