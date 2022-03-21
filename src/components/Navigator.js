@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navigator() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,10 @@ export default function Navigator() {
         <nav className="navbar sticky">
             <h1 className="navbar-header"><a href="/ResponsiveWeb_Project_React">Ejercítate</a></h1>
             <ul className="nav" id="nav">
-                <li><a href="/ResponsiveWeb_Project_React">Inicio</a></li>
-                <li><a href="/ResponsiveWeb_Project_React/ejercicios">Ejercicios</a></li>
-                <li><a href="/ResponsiveWeb_Project_React/dietas">Dietas</a></li>
-                <li><a href="/ResponsiveWeb_Project_React/contactar">Contactar</a></li>
+                <li><Link to="/">Inicio</Link></li>
+                <li><Link to="/ejercicios">Ejercicios</Link></li>
+                <li><Link to="/dietas">Dietas</Link></li>
+                <li><Link to="/contactar">Contactar</Link></li>
                 <div className="nav-opened-background" onClick={() => openNav("menuButton", "nav")}></div>
             </ul>
             <button
