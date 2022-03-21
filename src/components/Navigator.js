@@ -17,10 +17,10 @@ export default function Navigator() {
         <nav className="navbar sticky">
             <h1 className="navbar-header"><a href="/">Ejercítate</a></h1>
             <ul className="nav" id="nav">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/ejercicios">Ejercicios</a></li>
-                <li><a href="/dietas">Dietas</a></li>
-                <li><a href="/contactar">Contactar</a></li>
+                <li><a href="/ResponsiveWeb_Project_React">Inicio</a></li>
+                <li><a href="./pages/ejercicios">Ejercicios</a></li>
+                <li><a href="./pages/dietas">Dietas</a></li>
+                <li><a href="./pages/contactar">Contactar</a></li>
                 <div className="nav-opened-background" onClick={() => openNav("menuButton", "nav")}></div>
             </ul>
             <button

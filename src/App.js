@@ -16,11 +16,11 @@ function App() {
 
         <Route path="/ResponsiveWeb_Project_React" element={<Home />} />
 
-        <Route path="/ResponsiveWeb_Project_React/ejercicios" element={<Ejercicios />} />
+        <Route path="./pages/ejercicios" element={<Ejercicios />} />
 
-        <Route path="/ResponsiveWeb_Project_React/dietas" element={<Dietas />} />
+        <Route path="./pages/dietas" element={<Dietas />} />
 
-        <Route path="/ResponsiveWeb_Project_React/contactar" element={<Contactar />} />
+        <Route path="./pages/contactar" element={<Contactar />} />
 
       </Routes>
     </BrowserRouter>
