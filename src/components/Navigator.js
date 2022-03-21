@@ -8,19 +8,19 @@ export default function Navigator() {
 
         menu.classList.toggle('nav-opened');
         menuButton.innerHTML = !isOpen
-            ? '<img src="images/cerrar.png" />'
-            : '<img src="images/menu.png" />';
+            ? '<img src="/ResponsiveWeb_Project_React/images/cerrar.png" />'
+            : '<img src="/ResponsiveWeb_Project_React/images/menu.png" />';
         setIsOpen(prevValue => !prevValue);
     }
 
     return (
         <nav className="navbar sticky">
-            <h1 className="navbar-header"><a href="/">Ejercítate</a></h1>
+            <h1 className="navbar-header"><a href="/ResponsiveWeb_Project_React">Ejercítate</a></h1>
             <ul className="nav" id="nav">
                 <li><a href="/ResponsiveWeb_Project_React">Inicio</a></li>
-                <li><a href="./pages/ejercicios">Ejercicios</a></li>
-                <li><a href="./pages/dietas">Dietas</a></li>
-                <li><a href="./pages/contactar">Contactar</a></li>
+                <li><a href="/ResponsiveWeb_Project_React/ejercicios">Ejercicios</a></li>
+                <li><a href="/ResponsiveWeb_Project_React/dietas">Dietas</a></li>
+                <li><a href="/ResponsiveWeb_Project_React/contactar">Contactar</a></li>
                 <div className="nav-opened-background" onClick={() => openNav("menuButton", "nav")}></div>
             </ul>
             <button
@@ -28,7 +28,7 @@ export default function Navigator() {
                 id="menuButton"
                 onClick={() => openNav("menuButton", "nav")}
             >
-                <img src='images/menu.png' alt="" />
+                <img src='/ResponsiveWeb_Project_React/images/menu.png' alt="" />
             </button>
         </nav>
     );

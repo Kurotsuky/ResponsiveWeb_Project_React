@@ -4,7 +4,7 @@ export default function Slider() {
             <ul className='slider'>
                 <li>
                     <a href="#">
-                        <img src='images/ejercicios/pectoral.jpg' alt="Ejercicios de pectoral" />
+                        <img src='/ResponsiveWeb_Project_React/images/ejercicios/pectoral.jpg' alt="Ejercicios de pectoral" />
                         <div className='slider-description'>
                             <h2 className='slider-description-text'>Pectoral</h2>
                         </div>
@@ -12,7 +12,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src='images/ejercicios/espalda.jpg' alt="Ejercicios de espalda" />
+                        <img src='/ResponsiveWeb_Project_React/images/ejercicios/espalda.jpg' alt="Ejercicios de espalda" />
                         <div className='slider-description'>
                             <h2 className='slider-description-text'>Espalda</h2>
                         </div>
@@ -20,7 +20,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src='images/ejercicios/hombros.jpg' alt="Ejercicios de hombros" />
+                        <img src='/ResponsiveWeb_Project_React/images/ejercicios/hombros.jpg' alt="Ejercicios de hombros" />
                         <div className='slider-description'>
                             <h2 className='slider-description-text'>Hombros</h2>
                         </div>
@@ -28,7 +28,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src='images/ejercicios/abdominal.jpg' alt="Ejercicios de abdominal" />
+                        <img src='/ResponsiveWeb_Project_React/images/ejercicios/abdominal.jpg' alt="Ejercicios de abdominal" />
                         <div className='slider-description'>
                             <h2 className='slider-description-text'>Abdominales</h2>
                         </div>
@@ -36,7 +36,7 @@ export default function Slider() {
                 </li>
                 <li>
                     <a href="#">
-                        <img src='images/ejercicios/piernas.jpg' alt="Ejercicios de pierna" />
+                        <img src='/ResponsiveWeb_Project_React/images/ejercicios/piernas.jpg' alt="Ejercicios de pierna" />
                         <div className='slider-description'>
                             <h2 className='slider-description-text'>Piernas</h2>
                         </div>

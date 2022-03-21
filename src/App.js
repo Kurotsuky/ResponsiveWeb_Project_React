@@ -11,16 +11,16 @@ import Contactar from './pages/Contactar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
 
-        <Route path="/ResponsiveWeb_Project_React" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
 
-        <Route path="./pages/ejercicios" element={<Ejercicios />} />
+        <Route path="ejercicios" element={<Ejercicios />} />
 
-        <Route path="./pages/dietas" element={<Dietas />} />
+        <Route path="dietas" element={<Dietas />} />
 
-        <Route path="./pages/contactar" element={<Contactar />} />
+        <Route path="contactar" element={<Contactar />} />
 
       </Routes>
     </BrowserRouter>
