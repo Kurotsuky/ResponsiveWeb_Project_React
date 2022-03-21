@@ -14,13 +14,13 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
 
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
-        <Route path="ejercicios" element={<Ejercicios />} />
+        <Route path="/ejercicios" element={<Ejercicios />} />
 
-        <Route path="dietas" element={<Dietas />} />
+        <Route path="/dietas" element={<Dietas />} />
 
-        <Route path="contactar" element={<Contactar />} />
+        <Route path="/contactar" element={<Contactar />} />
 
       </Routes>
     </BrowserRouter>
