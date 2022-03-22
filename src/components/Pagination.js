@@ -1,15 +1,18 @@
+import { Link } from "react-router-dom";
+
 export default function Pagination(props) {
     const getPages = () => {
         const result = [];
         for (let i = 0; i < props.total; i++) {
             let page = i + 1;
             result.push(
-                <a
+                <Link
+                    to="#"
                     onClick={() => props.onChange(page)}
                     className={props.page === page ? 'active' : ''}
                 >
                     {page}
-                </a>
+                </Link>
             );
         }
         return result;
