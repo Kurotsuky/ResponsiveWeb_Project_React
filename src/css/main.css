@@ -503,7 +503,7 @@ main {
   color: #3e92b3;
 }
 
-.pagination > button {
+.pagination button {
   height: 1.1rem;
   margin-right: 0.7rem;
   transform: rotateY(180deg);
@@ -511,17 +511,17 @@ main {
   border: none;
 }
 
-.pagination > span + button {
+.pagination > span + a > button {
   margin-right: 0;
   margin-left: 0.7rem;
   transform: rotateY(0);
 }
 
-.pagination > button:hover {
+.pagination button:hover {
   cursor: pointer;
 }
 
-.pagination > button > img {
+.pagination button > img {
   height: 1.1rem;
   padding: 0 1rem 0 1rem;
 }

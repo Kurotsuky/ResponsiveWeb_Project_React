@@ -23,10 +23,12 @@ export default function Pagination(props) {
             <div className="pagination">
 
                 {props.page !== 1
-                    ? <button
-                        onClick={() => props.onChange(props.page - 1)}>
-                        <img src="images/adelante.png" alt="" />
-                    </button>
+                    ? <Link to="#Article-list">
+                        <button
+                            onClick={() => props.onChange(props.page - 1)}>
+                            <img src="/ResponsiveWeb_Project_React/images/adelante.png" alt="" />
+                        </button>
+                    </Link>
                     : ""
                 }
 
@@ -34,10 +36,12 @@ export default function Pagination(props) {
                 <span>{getPages()}</span>
 
                 {props.page !== props.total
-                    ? <button
-                        onClick={() => props.onChange(props.page + 1)}>
-                        <img src="images/adelante.png" alt="" />
-                    </button>
+                    ? <Link to="#Article-list">
+                        <button
+                            onClick={() => props.onChange(props.page + 1)}>
+                            <img src="/ResponsiveWeb_Project_React/images/adelante.png" alt="" />
+                        </button>
+                    </Link>
                     : ""
                 }
             </div>
