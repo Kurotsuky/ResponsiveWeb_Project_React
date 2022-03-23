@@ -51,7 +51,6 @@ export default function ArticlesList(props) {
             return;
         }
         setActualPage(page);
-        window.location.href = "#articles-list";
     }
 
     const changeActiveSorter = () => {

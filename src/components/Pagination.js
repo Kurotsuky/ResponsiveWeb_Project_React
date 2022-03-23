@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll';
 
 export default function Pagination(props) {
     const getPages = () => {
@@ -7,7 +7,7 @@ export default function Pagination(props) {
             let page = i + 1;
             result.push(
                 <Link
-                    to="#"
+                    to="articles-list"
                     onClick={() => props.onChange(page)}
                     className={props.page === page ? 'active' : ''}
                 >
@@ -23,7 +23,7 @@ export default function Pagination(props) {
             <div className="pagination">
 
                 {props.page !== 1
-                    ? <Link to="#Article-list">
+                    ? <Link to="articles-list">
                         <button
                             onClick={() => props.onChange(props.page - 1)}>
                             <img src="/ResponsiveWeb_Project_React/images/adelante.png" alt="" />
@@ -36,7 +36,7 @@ export default function Pagination(props) {
                 <span>{getPages()}</span>
 
                 {props.page !== props.total
-                    ? <Link to="#Article-list">
+                    ? <Link to="articles-list">
                         <button
                             onClick={() => props.onChange(props.page + 1)}>
                             <img src="/ResponsiveWeb_Project_React/images/adelante.png" alt="" />
